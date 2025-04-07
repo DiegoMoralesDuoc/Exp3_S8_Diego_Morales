@@ -1,4 +1,4 @@
-package com.fullstack.clases.ViajesMascota;
+package com.fullstack.clases.Antiguos.ViajesMascota;
 
 
 class Usuario {

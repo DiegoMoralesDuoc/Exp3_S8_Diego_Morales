@@ -1,4 +1,4 @@
-package com.fullstack.clases.ViajesMascota;
+package com.fullstack.clases.Antiguos.ViajesMascota;
 import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
