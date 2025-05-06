@@ -130,8 +130,7 @@
             <configuration>
                 <archive>
                     <manifestEntries>
-                        <!-- Especifica la clase principal de tu aplicación -->
-                        <Main-Class>com.fullstack.clases.Envios.Application</Main-Class> <!-- Cambia esta clase por la tuya -->
+                        <Main-Class>com.fullstack.clases.ViajesMascotaApplication</Main-Class>
                     </manifestEntries>
                 </archive>
             </configuration>

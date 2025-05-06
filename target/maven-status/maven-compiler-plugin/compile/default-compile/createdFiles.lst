@@ -7,6 +7,7 @@ com\fullstack\clases\ViajesMascota\repository\MascotaRepository.class
 com\fullstack\clases\Envios\service\EnvioService.class
 com\fullstack\clases\Envios\service\EnvioServiceImpl.class
 com\fullstack\clases\ViajesMascota\repository\UserRepository.class
+com\fullstack\clases\ViajesMascotaApplication.class
 com\fullstack\clases\ViajesMascota\api\request\UserUpdateRequest.class
 com\fullstack\clases\ViajesMascota\service\Mascota\MascotaService.class
 com\fullstack\clases\ViajesMascota\exceptionhandler\DatabaseTransactionException.class
