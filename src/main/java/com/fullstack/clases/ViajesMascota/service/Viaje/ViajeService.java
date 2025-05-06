@@ -6,11 +6,11 @@ import java.util.Optional;
 import com.fullstack.clases.ViajesMascota.api.request.ViajesMascotaCreateRequest;
 import com.fullstack.clases.ViajesMascota.model.Viaje;
 
-public interface  ViajeService {
+public interface ViajeService {
 
-    Viaje saveViaje(ViajesMascotaCreateRequest viaje);
+    Viaje saveViaje(ViajesMascotaCreateRequest viajeRequest);
     Optional<Viaje> findViajeById(Long id);
     List<Viaje> findAllViajes();
     void deleteViajeById(Long id);
-    
+
 }

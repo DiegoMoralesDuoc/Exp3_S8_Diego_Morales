@@ -2,6 +2,8 @@ package com.fullstack.clases.ViajesMascota.model;
 
 import java.time.LocalDateTime;
 
+import org.springframework.hateoas.RepresentationModel;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -41,7 +43,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 @Table(name="users")
-public class User {
+public class User extends RepresentationModel<User>{
     
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_seq")

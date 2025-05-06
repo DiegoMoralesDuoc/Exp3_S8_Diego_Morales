@@ -6,8 +6,7 @@ import com.fullstack.clases.Envios.model.Envio;
 
 @Repository
 public interface EnvioRepository extends JpaRepository<Envio, Long> {
-    
-    Envio findById(long id);
+
    
 }
 

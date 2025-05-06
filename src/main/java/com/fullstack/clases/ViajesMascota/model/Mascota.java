@@ -1,6 +1,10 @@
 package com.fullstack.clases.ViajesMascota.model;
 
 import java.time.LocalDateTime;
+
+import org.springframework.hateoas.RepresentationModel;
+
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -34,7 +38,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name="mascota")
-public class Mascota {
+public class Mascota extends RepresentationModel<Mascota> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "mascota_seq")

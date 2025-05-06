@@ -1,0 +1,25 @@
+services:
+  app:
+    image: sumativa-tres
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:oracle:thin:@sr29ddd1cv8dmcc4_high?TNS_ADMIN=C:/Wallet_SR29DDD1CV8DMCC4
+      - SPRING_DATASOURCE_USERNAME=admin
+      - SPRING_DATASOURCE_PASSWORD=Janemba!isthenumber1
+      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=oracle.jdbc.OracleDriver
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=create-drop
+      - SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT=org.hibernate.dialect.OracleDialect
+      - SPRING_JPA_SHOW_SQL=true
+      - TNS_ADMIN=/app/wallet
+
+      
+    networks:
+      - default
+
+networks:
+  default:
+    driver: bridge
