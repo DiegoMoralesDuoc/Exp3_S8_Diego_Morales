@@ -1,0 +1,11 @@
+com\fullstack\clases\ViajesMascota\repository\ViajeRepositoryTest.class
+com\fullstack\clases\ViajesMascota\service\ViajeTest\ViajeServiceTest.class
+com\fullstack\clases\Envios\controller\EnvioControllerTest.class
+com\fullstack\clases\ViajesMascota\model\UserTest.class
+com\fullstack\clases\ViajesMascota\controller\UserControllerUnitTest.class
+com\fullstack\clases\ViajesMascota\service\UserTest\UserServiceTest.class
+com\fullstack\clases\ViajesMascota\model\MascotaTest.class
+com\fullstack\clases\ViajesMascota\model\ViajeTest.class
+com\fullstack\clases\ViajesMascota\repository\UserRepositoryTest.class
+com\fullstack\clases\ViajesMascota\controller\MascotaControllerUnitTest.class
+com\fullstack\clases\ViajesMascota\repository\MascotaRepositoryTest.class
