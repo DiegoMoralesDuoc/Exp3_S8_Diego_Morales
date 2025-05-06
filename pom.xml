@@ -123,6 +123,7 @@
                     <redirectTestOutputToFile>false</redirectTestOutputToFile>
                 </configuration>
             </plugin>
+            
             <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jar-plugin</artifactId>
@@ -134,6 +135,19 @@
                     </manifestEntries>
                 </archive>
             </configuration>
+        </plugin>
+
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+            <version>3.1.0</version> <!-- Usa una versión compatible con tu Spring Boot -->
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>repackage</goal>
+                    </goals>
+                </execution>
+            </executions>
         </plugin>
         </plugins>
     </build>
